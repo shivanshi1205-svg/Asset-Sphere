@@ -1,0 +1,6 @@
+# Netlify Proxy Rules for AssetSpace
+# Replace "https://your-backend.onrender.com" with your live Render backend URL:
+/api/*  https://your-backend.onrender.com/api/:splat  200
+
+# Support React Router HTML5 pushState
+/*  /index.html  200
