@@ -1,0 +1,23 @@
+# Ignore other scratch projects
+/Nova-Core/
+/IPL Data/
+/geldium_credit_risk/
+/ipl-data-dashboard/
+/ipl_dashboard_web/
+/lueur-luxury-candle/
+/med-sync/
+/sandeep-opticals/
+/shivanshi-portfolio/
+/scraped_data/
+/IPL_Dashboard.pbix
+
+# Ignore local node_modules
+node_modules/
+dist/
+
+# Ignore local scrapers/temp files
+/*.js
+/*.html
+/*.json
+!/README.md
+!/start.bat
