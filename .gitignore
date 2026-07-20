@@ -10,6 +10,7 @@
 /shivanshi-portfolio/
 /scraped_data/
 /IPL_Dashboard.pbix
+/assetsphere-fullstack/
 
 # Ignore local node_modules
 node_modules/
