@@ -50,12 +50,6 @@ const Login = () => {
     setLoading(false);
   };
 
-  // Quick Demo Login Helper
-  const handleQuickLogin = () => {
-    setValue('username', 'demo');
-    setValue('password', '87654321');
-  };
-
   return (
     <div className="flex min-h-screen w-screen items-center justify-center bg-slate-50/50 p-4 md:p-0">
       <div className="flex w-full max-w-5xl overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-premium md:h-[600px]">
@@ -68,8 +62,8 @@ const Login = () => {
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary shadow-lg shadow-primary/30">
               <Building2 className="h-6 w-6 text-white" />
             </div>
-            <span className="font-display text-2xl font-bold tracking-wide">
-              Asset<span className="text-secondary font-medium">Space</span>
+            <span className="font-display text-2xl font-bold tracking-wide text-white">
+              Asset <span className="text-secondary font-medium">Sphere</span>
             </span>
           </div>
 
@@ -83,7 +77,7 @@ const Login = () => {
           </div>
 
           <div className="relative z-10 flex items-center justify-between text-xs text-slate-500 border-t border-slate-800 pt-6">
-            <span>&copy; {new Date().getFullYear()} AssetSphere Platform</span>
+            <span>&copy; {new Date().getFullYear()} Asset Sphere Platform</span>
             <span>Version 1.0.0</span>
           </div>
         </div>
@@ -163,27 +157,7 @@ const Login = () => {
                 Sign In
               </Button>
             </form>
-
-            {/* Quick Demo Credentials Help */}
-            <div className="mt-8 border-t border-slate-100 pt-6">
-              <div className="rounded-2xl bg-slate-50 p-4 border border-slate-200/40">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-slate-500 font-semibold">Demo Account Shortcut</span>
-                  <button
-                    type="button"
-                    onClick={handleQuickLogin}
-                    className="text-xs text-primary font-bold hover:underline"
-                  >
-                    Quick Autofill
-                  </button>
-                </div>
-                <div className="mt-2 flex justify-between text-xs text-slate-400">
-                  <span>Username: <strong className="text-slate-600">demo</strong></span>
-                  <span>Password: <strong className="text-slate-600">87654321</strong></span>
-                </div>
-              </div>
-            </div>
-
+            {/* Form End */}
           </div>
         </div>
       </div>

@@ -50,7 +50,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Boxes className="h-5 w-5" />
           </div>
           <span className="font-display text-xl font-bold text-white tracking-wide">
-            Asset<span className="text-secondary font-medium">Space</span>
+            Asset <span className="text-secondary font-medium">Sphere</span>
           </span>
         </div>
 
