@@ -1,2 +1,5 @@
-/api/*  https://assetsphere-backend.onrender.com/api/:splat  200 
-/*      /index.html  200 
+# Netlify Proxy Rules for AssetSphere
+/api/*  https://assetsphere-backend.onrender.com/api/:splat  200
+
+# Support React Router HTML5 pushState
+/*  /index.html  200
